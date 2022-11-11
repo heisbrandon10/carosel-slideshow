@@ -110,10 +110,12 @@ p {
   top: 58%;
   left: 5%;
   font-size: 3rem;
-  color: rgba(var(--color-two), 1);
+  /* color: rgba(var(--color-two), 1); */
+  color: crimson;
   padding: 0 1rem;
   border: none;
   border-bottom: 0.3rem solid rgba(var(--color-one), 1);
+  background: rgba(var(--color-one), 0.5);
 }
 
 .slide-text p {
@@ -131,7 +133,8 @@ button {
   padding: 0.6rem;
   background: rgba(var(--color-one), 0.5);
   border: none;
-  color: rgba(var(--color-two), 1);
+  /* color: rgba(var(--color-two), 1); */
+  color: antiquewhite;
   display: none;
 }
 
